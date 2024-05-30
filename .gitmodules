@@ -1,0 +1,12 @@
+[submodule "pack/git-plugins/start/commentary"]
+	path = pack/git-plugins/start/commentary
+	url = https://tpope.io/vim/commentary.git
+[submodule "pack/git-plugins/start/ale"]
+	path = pack/git-plugins/start/ale
+	url = https://github.com/dense-analysis/ale.git
+[submodule "pack/git-plugins/start/onedark.vim"]
+	path = pack/git-plugins/start/onedark.vim
+	url = https://github.com/joshdick/onedark.vim.git
+[submodule "pack/git-plugins/opt/onedark.vim"]
+	path = pack/git-plugins/opt/onedark.vim
+	url = https://github.com/joshdick/onedark.vim.git
