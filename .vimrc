@@ -29,17 +29,17 @@ set showmatch
 set hlsearch
 " Set the commands to save in history default number is 20.
 set history=1000
-" Set color scheme to atom one dark
-packadd! onedark.vim
-let g:onedark_termcolors=256
-colorscheme onedark
-" set background=dark
 " Add ruler in column 80
 set colorcolumn=80
 " Show match count when searching
 set shortmess-=S
 " PLUGNS ---------------------------------------------------------------- {{{
 
+" Set color scheme to atom one dark
+packadd! onedark.vim
+let g:onedark_termcolors=256
+colorscheme onedark
+" set background=dark
 let g:ale_virtualtext_cursor = 'current'
 
 " }}}
