@@ -33,13 +33,15 @@ set history=1000
 set colorcolumn=80
 " Show match count when searching
 set shortmess-=S
+" use 24 bit color
+set termguicolors
 " PLUGNS ---------------------------------------------------------------- {{{
 
 " Set color scheme to atom one dark
-packadd! onedark.vim
-let g:onedark_termcolors=256
+packadd onedark.vim
+" let g:onedark_termcolors=256
 colorscheme onedark
-" set background=dark
+set background=dark
 let g:ale_virtualtext_cursor = 'current'
 
 " }}}
