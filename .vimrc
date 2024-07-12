@@ -33,20 +33,16 @@ set history=1000
 set colorcolumn=80
 " Show match count when searching
 set shortmess-=S
-" PLUGNS ---------------------------------------------------------------- {{{
 
 " Set color scheme to atom one dark
+set termguicolors
 packadd! onedark.vim
 let g:onedark_termcolors=256
+set background=dark
 colorscheme onedark
-" set background=dark
 let g:ale_virtualtext_cursor = 'current'
 
-" }}}
-
-
-" MAPPINGS --------------------------------------------------------------- {{{
-
+" MAPPINGS
 " Automatically center screen after half page up/down
 nnoremap <C-u> <C-u>zz
 nnoremap <C-d> <C-d>zz
@@ -54,38 +50,14 @@ nnoremap <C-d> <C-d>zz
 nnoremap <C-h> <C-w><C-h>
 nnoremap <C-l> <C-w><C-l>
 
-" }}}
-
-
-" VIMSCRIPT -------------------------------------------------------------- {{{
-
-" This will enable code folding.
-" Use the marker method of folding.
-augroup filetype_vim
-    autocmd!
-    autocmd FileType vim setlocal foldmethod=marker
-augroup END
-
-" More Vimscripts code goes here.
-
-" }}}
-
-
-" STATUS LINE ------------------------------------------------------------ {{{
-
+" STATUS LINE
 " Clear status line when vimrc is reloaded.
 set statusline=
-
 " Status line left side.
 set statusline+=\ %F\ %M\ %Y\ %R
-
 " Use a divider to separate the left side from the right side.
 set statusline+=%=
-
 " Status line right side.
 set statusline+=\ total:\ %L\ row:\ %l\ col:\ %c\ percent:\%p%%
-
 " Show the status on the second to last line.
 set laststatus=2
-
-" }}}
