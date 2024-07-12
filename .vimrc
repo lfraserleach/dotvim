@@ -42,7 +42,6 @@ packadd onedark.vim
 " let g:onedark_termcolors=256
 colorscheme onedark
 set background=dark
->>>>>>> origin
 let g:ale_virtualtext_cursor = 'current'
 
 " MAPPINGS
