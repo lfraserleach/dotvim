@@ -34,12 +34,15 @@ set colorcolumn=80
 " Show match count when searching
 set shortmess-=S
 
-" Set color scheme to atom one dark
+" PLUGINS
+" use 24 bit color
 set termguicolors
-packadd! onedark.vim
-let g:onedark_termcolors=256
-set background=dark
+" Set color scheme to atom one dark
+packadd onedark.vim
+" let g:onedark_termcolors=256
 colorscheme onedark
+set background=dark
+>>>>>>> origin
 let g:ale_virtualtext_cursor = 'current'
 
 " MAPPINGS
