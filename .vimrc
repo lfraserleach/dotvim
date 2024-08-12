@@ -33,6 +33,8 @@ set history=1000
 set colorcolumn=80
 " Show match count when searching
 set shortmess-=S
+" set default vertical split to right
+set splitright
 " python with virtualenv support
 py3 << EOF
 import os
