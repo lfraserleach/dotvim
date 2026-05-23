@@ -49,10 +49,12 @@ set splitright
 " use 24 bit color
 set termguicolors
 " Set color scheme to atom one dark
-packadd onedark.vim
+" packadd onedark.vim
 " let g:onedark_termcolors=256
-colorscheme onedark
-set background=dark
+autocmd vimenter * ++nested colorscheme gruvbox
+let g:gruvbox_italic = '1'
+" colorscheme onedark
+" set background=dark
 let g:ale_virtualtext_cursor = 'current'
 
 " MAPPINGS
