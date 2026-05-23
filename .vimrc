@@ -54,7 +54,7 @@ set termguicolors
 autocmd vimenter * ++nested colorscheme gruvbox
 let g:gruvbox_italic = '1'
 " colorscheme onedark
-" set background=dark
+set background=dark
 let g:ale_virtualtext_cursor = 'current'
 let g:ale_python_auto_virtualenv = 1
 
